@@ -1,7 +1,10 @@
-#!/bin/bash
 #include <stio.h>
-
-int main() {
+/**
+ * main -include in main function
+ * Return: 0
+ *
+int main  (void)
+{
 	puts("Programming is like building a multilingual puzzle");
-	return 0;
+	return (0);
 }
