@@ -2,7 +2,7 @@
 
 /**
  * _strlen - function that returns the length of a string
- * @s - string to be counted
+ * @s: string to be counted
  * Return: string length
  */
 
