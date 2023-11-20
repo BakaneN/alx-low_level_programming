@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * str_concat - unction that concatenates two strings
+ * str_concat - function that concatenates two strings
  * @s1: string 1
  * @s2: string 2
  * Return: pointer to newly allocated space
@@ -30,6 +30,6 @@ char *str_concat(char *s1, char *s2)
 	for (i = 0; s1[i] != '\0'; i++)
 		output[i] = s1[i];
 	for (i = 0; s2[i] != '\0'; i++)
-		output[i] = s2[i];
+		output[s1len + i] = s2[i];
 	return (output);
 }
